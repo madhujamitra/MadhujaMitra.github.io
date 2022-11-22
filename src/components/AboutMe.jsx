@@ -44,9 +44,9 @@ export default function AboutMe() {
                 alt="GitHub Avatar"
                 loading="lazy"
                 className="mx-auto rounded-circle"
-                style={{ width: "15rem", height: "15rem" }}
+                style={{ width: "15rem", height: "15rem"}}
               />
-            </Col>
+           </Col>
           </Row>
         </Container>
       </StyledAboutMe>
