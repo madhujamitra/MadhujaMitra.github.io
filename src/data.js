@@ -7,6 +7,7 @@ import {
   FaGitAlt,
   FaGithubSquare,
   FaLink,
+  FaAngular,
 } from "react-icons/fa";
 import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
 
@@ -24,7 +25,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "madhujamitra";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
@@ -34,7 +35,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with Angular,React, JavaScript Bootstrap, Redux, and the GitHub REST API.";
 
 /* Skills
  ************************************************************** 
@@ -86,6 +87,14 @@ export const skillData = [
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <FaAngular className="display-4" />,
+    name: "Angular",
+  },
+
+
+  
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
